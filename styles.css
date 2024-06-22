@@ -1,0 +1,77 @@
+* {
+
+
+    background-color: rgb(40, 38, 65);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+
+
+header {
+
+
+    background-color: rgb(107, 86, 137);
+    color: rgb(200, 200, 200);
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+.scoreboard {
+    padding: 50px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+
+}
+
+
+.container_choices {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.choices {
+
+
+    height: 300px;
+    width:  300px;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    font-size: 50px;
+    background-color: rgb(74, 78, 110);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.choices:hover{
+
+    background-color: rgb(74, 78, 131);
+}
+
+.display {
+
+    padding: 50px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+.greentext{
+    color: rgb(55, 158, 55);
+}
+
+.redtext{
+    color: rgb(176, 48, 48);
+}
